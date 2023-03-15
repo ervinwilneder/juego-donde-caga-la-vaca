@@ -8,6 +8,7 @@ prompt for chatGPT4:
 > parcelas externas.
 >
 > La vaca puede moverse, descansar, comer o hacer popó.
+>
 > La probabilidades iniciales en la primer parcela son:
 > mover: 0.8
 > descansar: 0.05
@@ -23,7 +24,9 @@ prompt for chatGPT4:
 > | popó   | 0.8   | 0.1       | 0.05  | 0.05 |
 > 
 > En cada instante de tiempo:
+>
 > cuando la vaca se mueve lo hace a cualquiera de las parcelas adyacentes
+>
 > cuando la vaca descansa, come o hace popó, permanece en la misma parcela
 > 
 > El juego termina una vez que la vaca hace popó
